@@ -5,7 +5,7 @@
 # reversing, and converting a linked list to a plain Python list. The class uses recursion to perform these operations.
 # The Node class represents individual nodes in the linked list, storing data and a reference to the next node.
 
- class Node:
+class Node:
     def __init__(self, data, next=None):
         self.data = data
         self.next = next
