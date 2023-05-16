@@ -97,4 +97,4 @@ class LinkedList:
         if node is None:
             return plain_list
         plain_list.append(node.data)
-        return self._rec_to_plain
+        return self._rec_to_plain_list(node.next)
